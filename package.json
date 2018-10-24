@@ -1,0 +1,23 @@
+{
+  "name": "quete-map-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/jest/bin/jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-check-cross-reporter": "^0.1.0"
+  },
+  "jest": {
+    "reporters": [
+      "jest-check-cross-reporter"
+    ]
+  }
+}
